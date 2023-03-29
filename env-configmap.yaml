@@ -1,4 +1,8 @@
 POSTGRES_DB=postgres
+POSTGRES_PASSWORD=Sman7532159
+
+
+
 POSTGRES_HOST=cdr.ctcx4khmx3ch.us-east-1.rds.amazonaws.com
 URL=http://localhost:8100
 AWS_BUCKET=s3db-000472196561	
