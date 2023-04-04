@@ -15,15 +15,16 @@ spec:
         service: udagram-api-feed
     spec:
       containers:
-      - image: abanobmorgan/udagram-api-feed
+      - image: abanobmorgan/udagram-api-feed:latest	
+
         name: udagram-api-feed
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
         envFrom:
           - secretRef:
-              name: envsecret
+              name: env-secret
           - configMapRef:
-              name: envconfigmap
+              name: env-configmap
 
 

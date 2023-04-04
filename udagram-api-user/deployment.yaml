@@ -18,10 +18,10 @@ spec:
       - image: abanobmorgan/udagram-api-user
         name: udagram-api-user
         envFrom:
-          - configMapRef:
-              name: envconfigmap
           - secretRef:
-              name: envsecret
+              name: env-secret
+          - configMapRef:
+              name: env-configmap
         imagePullPolicy: Always
         resources:
           requests:

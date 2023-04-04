@@ -1,7 +1,4 @@
 POSTGRES_DB=postgres
-POSTGRES_PASSWORD=
-
-
 
 POSTGRES_HOST=cdr.ctcx4khmx3ch.us-east-1.rds.amazonaws.com
 URL=http://localhost:8100
