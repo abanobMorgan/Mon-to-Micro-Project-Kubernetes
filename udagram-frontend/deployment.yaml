@@ -15,7 +15,7 @@ spec:
         service: udagram-frontend
     spec:
       containers:
-      - image: abanobmorgan/udagram-frontend
+      - image: abanobmorgan/udagram-frontend:v2
         name: udagram-frontend
         imagePullPolicy: Always
         resources:
